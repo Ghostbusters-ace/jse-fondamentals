@@ -22,4 +22,17 @@ public class LoginManagerTest {
                 () -> assertEquals("007", loginManager.getPassword())
                 );
     }
+
+    @Test
+    @DisplayName("should be godd one")
+    public void goodCredentials(){
+        assertEquals("200", this.loginManager.login());
+    }
+
+    @Test
+    @DisplayName("should be 404")
+    public void basCredentials(){
+        LoginManager  loginManager1 = new LoginManager("ouf", "bad");
+        assertEquals("404", loginManager1.login());
+    }
 }

@@ -17,6 +17,6 @@ public class StudentRepositoryTest {
     @Test
     @DisplayName("Student list should have 1 lement")
     public void studentInstanciationTest(){
-        assertEquals(1, studentRepository.students.size());
+        assertEquals(1, studentRepository.size());
     }
 }
