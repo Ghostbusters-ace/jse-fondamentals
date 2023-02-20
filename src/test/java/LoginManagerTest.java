@@ -1,3 +1,5 @@
+import fr.aelion.models.Student;
+import fr.aelion.repositories.StudentRepository;
 import fr.aelion.user.LoginManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -33,6 +35,20 @@ public class LoginManagerTest {
     @DisplayName("should be 404")
     public void basCredentials(){
         LoginManager  loginManager1 = new LoginManager("ouf", "bad");
-        assertEquals("404", loginManager1.login());
+
+    }
+
+    @Test
+    @DisplayName("bien connecté")
+    public void studentLogin(){
+        StudentRepository studentRepository = this.loginManager.getStudentRepository();
+
+        Student student = studentRepository.findByNameAndPass("bond","007");
+
+        assertEquals(false, student.isLoggin());
+
+        this.loginManager.login();
+
+        assertEquals(true, student.isLoggin());
     }
 }

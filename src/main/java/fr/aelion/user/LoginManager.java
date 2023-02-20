@@ -14,11 +14,21 @@ public class LoginManager {
         this.password = password;
     }
 
+    public StudentRepository getStudentRepository() {
+        return this.studentRepository;
+    }
     public String  login(){
         if (this.login.equals(null) || this.password.equals(null)){
             return "403";
         }
-        return this.studentRepository.findByNameAndPass(this.login,this.password) ? "200" : "404";
+        // autre facon mettre (student instanof Student) dans if
+        Student student = this.studentRepository.findByNameAndPass(this.login,this.password);
+        if (this.studentRepository.findByNameAndPass(this.login, this.password) instanceof Student){
+            student.isLoggin(true);
+return "200";
+        }
+        //return this.studentRepository.findByNameAndPass(this.login,this.password) ? "200" : "404";
+        return "404";
    }
 
     /**
@@ -28,7 +38,10 @@ public class LoginManager {
      * return "404"
      */
     public void logout(){
+    Student student =  this.studentRepository.findByNameAndPass(this.login, this.password);
+    if ( student instanceof Student ){
 
+    }
 
     }
 
@@ -47,4 +60,5 @@ public class LoginManager {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }

@@ -2,6 +2,7 @@ package fr.aelion.repositories;
 
 import fr.aelion.models.Student;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,13 +14,13 @@ public class StudentRepository {
         this.populate();
     }
 
-    public boolean findByNameAndPass(String login, String password){
+    public Student findByNameAndPass(String login, String password){
         for (Student student : this.students){
             if ( student.getUsername() == login && student.getPassword() == password){
-                return true;
+                return student;
             }
         }
-        return false;
+        return null;
     }
 
     public int size(){
@@ -29,6 +30,8 @@ public class StudentRepository {
         Student student = new Student("bond", "James","stef@alion.fr");
         student.setUsername("bond");
         student.setPassword("007");
+
+        System.out.println(student);
 
         //add student to list
         this.students.add(student);
