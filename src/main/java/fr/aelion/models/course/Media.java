@@ -6,7 +6,7 @@ public abstract class Media {
 
     protected  String summary;
 
-    protected  float duration;
+    protected  Float duration;
 
     protected  Author author;
 
@@ -28,7 +28,7 @@ public abstract class Media {
         this.summary = summary;
     }
 
-    public float getDuration() {
+    public Float getDuration() {
         return duration;
     }
 

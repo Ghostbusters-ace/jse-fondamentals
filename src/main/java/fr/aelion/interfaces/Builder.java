@@ -1,5 +1,7 @@
 package fr.aelion.interfaces;
 
+import java.util.Optional;
+
 public interface Builder <T>{
-   public T build();
+    Optional <T> build();
 }
