@@ -3,8 +3,6 @@ package fr.aelion.builder;
 import fr.aelion.interfaces.Builder;
 import fr.aelion.models.course.*;
 
-import java.util.Optional;
-
 public class MediaBuilder implements Builder<Media> {
 
     private String title;
@@ -18,10 +16,16 @@ public class MediaBuilder implements Builder<Media> {
     private String mediaType;
 
     @Override
-    public Optional <Media> build() {
+    public Media build() throws Exception {
 
         if (this.author ==null || this. duration == null){
-            return Optional.empty();
+
+            throw new Exception("title or duration is missing, unable to make media");
+            //return Optional.empty();
+        }
+
+        if (this.mediaType == null){
+            throw new Exception("Media type is null; cannot create MEDIA");
         }
 
         Media media;
@@ -51,8 +55,7 @@ public class MediaBuilder implements Builder<Media> {
         media.setAuthor(this.author);
         media.setDuration(this.duration);
 
-
-        return Optional.of(media);
+        return media;
     }
 
     public MediaBuilder summary(String summary) {

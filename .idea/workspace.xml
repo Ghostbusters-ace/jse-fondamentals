@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="add builder and main an CourseRun and Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/aelion/builder/MediaBuilderTest.java" afterDir="false" />
+    <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="Test MediaBuilder avec Optional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/builder/MediaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/builder/MediaBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/interfaces/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/interfaces/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Media.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/aelion/builder/MediaBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/aelion/builder/MediaBuilderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,19 +75,18 @@
       <recent name="fr.aelion.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MediaBuilderTest.notEnoughAttributesTest">
-    <configuration name="DisplayCourseTest.displayBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MediaBuilderTest">
+    <configuration name="MediaBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.aelion.services.courses.*" />
+          <option name="PATTERN" value="fr.aelion.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fr.aelion.services.courses" />
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.services.courses.DisplayCourseTest" />
-      <option name="METHOD_NAME" value="displayBuilder" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="fr.aelion.builder" />
+      <option name="MAIN_CLASS_NAME" value="fr.aelion.builder.MediaBuilderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MediaBuilderTest.noType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-foundation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.aelion.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.aelion.builder" />
+      <option name="MAIN_CLASS_NAME" value="fr.aelion.builder.MediaBuilderTest" />
+      <option name="METHOD_NAME" value="noType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MediaBuilderTest.notEnoughAttributesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-foundation" />
       <extension name="coverage">
@@ -142,29 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaBuilderTest.titleAttributeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-foundation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.aelion.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.aelion.builder" />
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.builder.MediaBuilderTest" />
-      <option name="METHOD_NAME" value="titleAttributeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MediaBuilderTest" />
+        <item itemvalue="JUnit.MediaBuilderTest.noType" />
         <item itemvalue="JUnit.MediaBuilderTest.notEnoughAttributesTest" />
         <item itemvalue="JUnit.MediaBuilderTest.attributesTest" />
         <item itemvalue="JUnit.MediaBuilderTest.build" />
-        <item itemvalue="JUnit.MediaBuilderTest.titleAttributeTest" />
-        <item itemvalue="JUnit.DisplayCourseTest.displayBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +180,7 @@
       <workItem from="1676621557476" duration="63000" />
       <workItem from="1676621867149" duration="17462000" />
       <workItem from="1676881415816" duration="2267000" />
-      <workItem from="1676966874414" duration="17094000" />
+      <workItem from="1676966874414" duration="19629000" />
     </task>
     <task id="LOCAL-00001" summary="add Course and DisplayCourse">
       <created>1676972240042</created>
@@ -206,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676983512825</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test MediaBuilder avec Optional">
+      <created>1676990726490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676990726490</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +231,7 @@
     <MESSAGE value="add Course and DisplayCourse" />
     <MESSAGE value="add models and main an CourseRun" />
     <MESSAGE value="add builder and main an CourseRun and Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add builder and main an CourseRun and Test" />
+    <MESSAGE value="Test MediaBuilder avec Optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test MediaBuilder avec Optional" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 package fr.aelion.interfaces;
 
-import java.util.Optional;
+import fr.aelion.models.course.Media;
 
 public interface Builder <T>{
-    Optional <T> build();
+    T build() throws Exception;
 }
