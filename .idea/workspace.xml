@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/course/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/services/courses/DisplayCourse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Media.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fr.aelion.models.course" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -74,7 +79,7 @@
       <workItem from="1676621557476" duration="63000" />
       <workItem from="1676621867149" duration="17462000" />
       <workItem from="1676881415816" duration="2267000" />
-      <workItem from="1676966874414" duration="988000" />
+      <workItem from="1676966874414" duration="4338000" />
     </task>
     <servers />
   </component>
