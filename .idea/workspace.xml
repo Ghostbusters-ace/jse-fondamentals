@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="add Course and DisplayCourse">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Docuement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Slide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/run/CourseRun.java" afterDir="false" />
+    <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="add models and main an CourseRun">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/builder/MediaBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/interfaces/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/aelion/services/courses/DisplayCourseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/course/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/run/CourseRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/run/CourseRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/services/courses/DisplayCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/services/courses/DisplayCourse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DisplayCourseTest.displayBuilder">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.aelion.Main" />
       <module name="java-foundation" />
@@ -79,8 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DisplayCourseTest.displayBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-foundation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.aelion.services.courses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.aelion.services.courses" />
+      <option name="MAIN_CLASS_NAME" value="fr.aelion.services.courses.DisplayCourseTest" />
+      <option name="METHOD_NAME" value="displayBuilder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DisplayCourseTest.displayBuilder" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -100,7 +118,7 @@
       <workItem from="1676621557476" duration="63000" />
       <workItem from="1676621867149" duration="17462000" />
       <workItem from="1676881415816" duration="2267000" />
-      <workItem from="1676966874414" duration="5700000" />
+      <workItem from="1676966874414" duration="11357000" />
     </task>
     <task id="LOCAL-00001" summary="add Course and DisplayCourse">
       <created>1676972240042</created>
@@ -109,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676972240042</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add models and main an CourseRun">
+      <created>1676973832898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676973832898</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Course and DisplayCourse" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Course and DisplayCourse" />
+    <MESSAGE value="add models and main an CourseRun" />
+    <option name="LAST_COMMIT_MESSAGE" value="add models and main an CourseRun" />
   </component>
 </project>

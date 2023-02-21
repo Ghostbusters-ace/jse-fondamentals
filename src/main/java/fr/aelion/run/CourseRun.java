@@ -20,6 +20,7 @@ public class CourseRun {
         DisplayCourse displaycourse = new DisplayCourse();
         displaycourse.setCourse(this.course);
         displaycourse.display();
+        System.out.println(displaycourse.displaBuilder());
     }
     private void makeCourse(){
         Media video = new Video();

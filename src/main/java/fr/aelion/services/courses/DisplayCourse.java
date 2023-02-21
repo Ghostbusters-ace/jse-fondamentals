@@ -14,6 +14,17 @@ public class DisplayCourse {
         });
     }
 
+    public String displaBuilder(){
+        String [] output = new  String[1];
+        output[0] = "Course : " + course.getTitle() + "\n";
+        //next display the list of title of specific Medias
+        course.getMedias().forEach(media -> {
+            output[0] += media.getTitle() + "\n";
+        });
+
+        return output[0];
+    }
+
     public void setCourse(Course course) {
         this.course = course;
     }
