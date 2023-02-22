@@ -1,6 +1,8 @@
 package fr.aelion.run;
 
 import fr.aelion.helpers.MediaBuilder;
+import fr.aelion.helpers.exceptions.NoMediaTypeException;
+import fr.aelion.helpers.exceptions.NotEnoughArgsException;
 import fr.aelion.models.course.*;
 import fr.aelion.repositories.course.Course;
 import fr.aelion.services.courses.DisplayCourse;
@@ -61,24 +63,40 @@ public class CourseRun {
 
         try {
             this.course.addMedia(videoBuilder.build());
-        } catch (Exception e) {
-            System.out.println("Unable to add video media");
+        } catch (NoMediaTypeException e) {
+            System.out.println(e.getMessage());
+        } catch (NotEnoughArgsException e){
+            System.out.println(e.getMessage());
         }
+
         try {
             this.course.addMedia(slideBuilder.build());
-        } catch (Exception e) {
-            System.out.println("Unable to add slide media");
+        } catch (NoMediaTypeException e) {
+            System.out.println(e.getMessage());
+        } catch (NotEnoughArgsException e){
+            System.out.println(e.getMessage());
         }
         try {
             this.course.addMedia(docBuilder.build());
-        } catch (Exception e) {
-            System.out.println("Unable to add document media");
+        } catch (NoMediaTypeException e) {
+            System.out.println(e.getMessage());
+        } catch (NotEnoughArgsException e){
+            System.out.println(e.getMessage());
         }
 
         try {
             this.course.addMedia(badBuilder.build());
-        } catch (Exception e) {
-            System.out.println("bad bad bad");
+        } catch (NoMediaTypeException e) {
+            System.out.println(e.getMessage());
+            badBuilder.setMediaType("video");
+        } catch (NotEnoughArgsException e){
+            System.out.println(e.getMessage());
+        } finally {
+            try {
+                this.course.addMedia(badBuilder.build());
+            } catch ( Exception e){
+                System.out.println("So bad... One more error");
+            }
         }
     }
 }

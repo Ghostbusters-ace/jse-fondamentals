@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="Test MediaBuilder avec try catch et exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/helpers/MediaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/helpers/MediaBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/run/CourseRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/run/CourseRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,12 +92,12 @@
       <module name="java-foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.aelion.builder.*" />
+          <option name="PATTERN" value="fr.aelion.helpers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fr.aelion.builder" />
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.builder.MediaBuilderTest" />
+      <option name="MAIN_CLASS_NAME" value="fr.aelion.helpers.MediaBuilderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,12 +107,12 @@
       <module name="java-foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.aelion.builder.*" />
+          <option name="PATTERN" value="fr.aelion.helpers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fr.aelion.builder" />
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.builder.MediaBuilderTest" />
+      <option name="MAIN_CLASS_NAME" value="fr.aelion.helpers.MediaBuilderTest" />
       <option name="METHOD_NAME" value="attributesTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -122,12 +123,12 @@
       <module name="java-foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.aelion.builder.*" />
+          <option name="PATTERN" value="fr.aelion.helpers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fr.aelion.builder" />
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.builder.MediaBuilderTest" />
+      <option name="MAIN_CLASS_NAME" value="fr.aelion.helpers.MediaBuilderTest" />
       <option name="METHOD_NAME" value="noType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -138,12 +139,12 @@
       <module name="java-foundation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.aelion.builder.*" />
+          <option name="PATTERN" value="fr.aelion.helpers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fr.aelion.builder" />
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.builder.MediaBuilderTest" />
+      <option name="MAIN_CLASS_NAME" value="fr.aelion.helpers.MediaBuilderTest" />
       <option name="METHOD_NAME" value="notEnoughAttributesTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -176,7 +177,7 @@
       <workItem from="1676621867149" duration="17462000" />
       <workItem from="1676881415816" duration="2267000" />
       <workItem from="1676966874414" duration="19655000" />
-      <workItem from="1677052574183" duration="3653000" />
+      <workItem from="1677052574183" duration="5992000" />
     </task>
     <task id="LOCAL-00001" summary="add Course and DisplayCourse">
       <created>1676972240042</created>

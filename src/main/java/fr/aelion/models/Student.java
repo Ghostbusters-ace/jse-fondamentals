@@ -15,7 +15,7 @@ public class Student extends Person {
         this.lastName = lastName;
         this.firstName = firstName;
         this.email = email;
-       this.student.setLastName(lastName);
+        this.student.setLastName(lastName);
     }
 
     public boolean login(String username, String password) {
@@ -27,7 +27,7 @@ public class Student extends Person {
     }
 
     public void logout() {
-       this.isLoggin = false;
+        this.isLoggin = false;
 
     }
 
@@ -51,7 +51,7 @@ public class Student extends Person {
         return this.isLoggin;
     }
 
-    public void isLoggin(boolean isLoggin){ // Setter
+    public void isLoggin(boolean isLoggin) { // Setter
         this.isLoggin = true;
     }
 }
