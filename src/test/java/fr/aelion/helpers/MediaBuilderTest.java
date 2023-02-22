@@ -1,4 +1,4 @@
-package fr.aelion.builder;
+package fr.aelion.helpers;
 
 import fr.aelion.models.course.Author;
 import fr.aelion.models.course.Media;
@@ -6,8 +6,6 @@ import fr.aelion.models.course.Video;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 

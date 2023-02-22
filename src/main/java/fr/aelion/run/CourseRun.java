@@ -1,6 +1,6 @@
 package fr.aelion.run;
 
-import fr.aelion.builder.MediaBuilder;
+import fr.aelion.helpers.MediaBuilder;
 import fr.aelion.models.course.*;
 import fr.aelion.repositories.course.Course;
 import fr.aelion.services.courses.DisplayCourse;

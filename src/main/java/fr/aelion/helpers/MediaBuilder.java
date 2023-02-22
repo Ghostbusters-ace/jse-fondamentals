@@ -1,6 +1,6 @@
-package fr.aelion.builder;
+package fr.aelion.helpers;
 
-import fr.aelion.interfaces.Builder;
+import fr.aelion.helpers.interfaces.Builder;
 import fr.aelion.models.course.*;
 
 public class MediaBuilder implements Builder<Media> {
