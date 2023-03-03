@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="Test MediaBuilder avec try catch et exception">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/dbal/DbConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/dbal/postgres/PgConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/helpers/CaseConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/helpers/exceptions/StudentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/helpers/properties/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/aelion/dbal/postgres/PgConnectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/helpers/MediaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/helpers/MediaBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/run/CourseRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/run/CourseRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/run/StudentRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/run/StudentRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/user/LoginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/user/LoginManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StudentRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,81 +84,55 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.aelion.dbal.postgres" />
       <recent name="fr.aelion.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.Main" />
+  <component name="RunManager" selected="JUnit.StudentRepositoryTest">
+    <configuration name="StudentRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-foundation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.aelion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediaBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-foundation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.aelion.helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.aelion.builder" />
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.helpers.MediaBuilderTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaBuilderTest.attributesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentRepositoryTest.shouldGiveAliasedTableName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-foundation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.aelion.helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.aelion.builder" />
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.helpers.MediaBuilderTest" />
-      <option name="METHOD_NAME" value="attributesTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldGiveAliasedTableName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaBuilderTest.noType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentRepositoryTest.shouldListAllAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-foundation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.aelion.helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.aelion.builder" />
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.helpers.MediaBuilderTest" />
-      <option name="METHOD_NAME" value="noType" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldListAllAttributes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaBuilderTest.notEnoughAttributesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentRepositoryTest.shouldReturnCommaSeparatedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-foundation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.aelion.helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.aelion.builder" />
-      <option name="MAIN_CLASS_NAME" value="fr.aelion.helpers.MediaBuilderTest" />
-      <option name="METHOD_NAME" value="notEnoughAttributesTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldReturnCommaSeparatedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRepositoryTest.shouldReturnSelectQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-foundation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldReturnSelectQuery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MediaBuilderTest" />
-        <item itemvalue="JUnit.MediaBuilderTest.noType" />
-        <item itemvalue="JUnit.MediaBuilderTest.notEnoughAttributesTest" />
-        <item itemvalue="JUnit.MediaBuilderTest.attributesTest" />
+        <item itemvalue="JUnit.StudentRepositoryTest" />
+        <item itemvalue="JUnit.StudentRepositoryTest.shouldReturnSelectQuery" />
+        <item itemvalue="JUnit.StudentRepositoryTest.shouldReturnCommaSeparatedList" />
+        <item itemvalue="JUnit.StudentRepositoryTest.shouldListAllAttributes" />
+        <item itemvalue="JUnit.StudentRepositoryTest.shouldGiveAliasedTableName" />
       </list>
     </recent_temporary>
   </component>

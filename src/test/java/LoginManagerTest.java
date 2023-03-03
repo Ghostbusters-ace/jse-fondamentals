@@ -43,12 +43,5 @@ public class LoginManagerTest {
     public void studentLogin(){
         StudentRepository studentRepository = this.loginManager.getStudentRepository();
 
-        Student student = studentRepository.findByNameAndPass("bond","007");
-
-        assertEquals(false, student.isLoggin());
-
-        this.loginManager.login();
-
-        assertEquals(true, student.isLoggin());
     }
 }

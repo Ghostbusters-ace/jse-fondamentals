@@ -1,42 +1,17 @@
 package fr.aelion.models;
 
 public class Student extends Person {
-    public String lastName;
-    public String firstName;
-    private String email;
-    private String username;
+
+    private String login;
     private String password;
-    private boolean isLoggin = false;
+    private int id;
 
-    Person person;
-    Student student;
-
-    public Student(String lastName, String firstName, String email) {
-        this.lastName = lastName;
-        this.firstName = firstName;
-        this.email = email;
-        this.student.setLastName(lastName);
+    public String getLogin() {
+        return login;
     }
 
-    public boolean login(String username, String password) {
-        if (username.equals(this.username) && password.equals(this.password)) {
-            return isLoggin = true;
-        } else {
-            return isLoggin = false;
-        }
-    }
-
-    public void logout() {
-        this.isLoggin = false;
-
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     public String getPassword() {
@@ -47,11 +22,11 @@ public class Student extends Person {
         this.password = password;
     }
 
-    public boolean isLoggin() { // Getter
-        return this.isLoggin;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void isLoggin(boolean isLoggin) { // Setter
-        this.isLoggin = true;
+    public int getId() {
+        return id;
     }
 }

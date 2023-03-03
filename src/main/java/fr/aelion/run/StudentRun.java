@@ -4,7 +4,7 @@ import fr.aelion.models.Student;
 
 public class StudentRun {
     public void run() {
-        Student student = new Student("pierre", "gwen","stef@alion.fr");
+       /* Student student = new Student("pierre", "gwen","stef@alion.fr");
         student.setUsername("useme");
         student.setPassword("usemoi");
 
@@ -22,6 +22,6 @@ public class StudentRun {
         if(!student.login("frere", "toi")){
 
             System.out.println("vai foder ");
-        }
+        }*/
     }
 }
