@@ -2,7 +2,6 @@ package fr.aelion.repositories;
 
 import fr.aelion.helpers.CaseConverter;
 
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;
@@ -26,7 +25,6 @@ public abstract class Repository<T> {
     }
 
     protected String getAliasedTableName() {
-        //  var tableName = this.getTableName();
 
         return getTableName() + " " + getTableName().substring(0, 1);
     }

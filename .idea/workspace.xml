@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="Test MediaBuilder avec try catch et exception">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/dbal/DbConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/dbal/postgres/PgConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/helpers/CaseConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/helpers/exceptions/StudentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/helpers/properties/PropertiesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/aelion/dbal/postgres/PgConnectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="refactor le select pour automatiser les query en passer par le tdd">
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/run/StudentRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/run/StudentRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/user/LoginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/user/LoginManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StudentRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676993145712</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor le select pour automatiser les query en passer par le tdd">
+      <created>1677857324755</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677857324755</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +219,7 @@
     <MESSAGE value="add builder and main an CourseRun and Test" />
     <MESSAGE value="Test MediaBuilder avec Optional" />
     <MESSAGE value="Test MediaBuilder avec try catch et exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test MediaBuilder avec try catch et exception" />
+    <MESSAGE value="refactor le select pour automatiser les query en passer par le tdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor le select pour automatiser les query en passer par le tdd" />
   </component>
 </project>

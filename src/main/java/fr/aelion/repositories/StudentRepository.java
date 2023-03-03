@@ -8,7 +8,6 @@ import fr.aelion.models.Student;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.SplittableRandom;
 
 public class StudentRepository extends Repository<Student> {
 
@@ -112,11 +111,11 @@ public class StudentRepository extends Repository<Student> {
 
         // get the resultat dans une boucle
 
-        if (resultSet.next() == false) {
+        if (!resultSet.next()) {
             throw StudentException.studentNotFound();
         } else {
 
-            student.setId(resultSet.getInt(1));
+            student.setId(resultSet.getInt("id"));
             student.setLastName(resultSet.getString("last_name"));
             student.setFirstName(resultSet.getString("first_name"));
             student.setEmail(resultSet.getString("email"));
@@ -150,7 +149,7 @@ public class StudentRepository extends Repository<Student> {
 
         // get the resultat dans une boucle
 
-        if (resultSet.next() == false) {
+        if (!resultSet.next()) {
             throw StudentException.studentNotFound();
         } else {
 

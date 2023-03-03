@@ -25,7 +25,6 @@ public class Student extends Person {
     public void setId(int id) {
         this.id = id;
     }
-
     public int getId() {
         return id;
     }
