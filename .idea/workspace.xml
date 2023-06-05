@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="refactor le select pour automatiser les query en passer par le tdd">
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/models/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/aelion/repositories/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StudentRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentRepositoryTest.java" afterDir="false" />
+    <list default="true" id="bd1ef126-ee4d-4ef3-a649-7290abb108ae" name="Changes" comment="quelque mmodif sur resultset.next">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +150,8 @@
       <workItem from="1676881415816" duration="2267000" />
       <workItem from="1676966874414" duration="19655000" />
       <workItem from="1677052574183" duration="5992000" />
+      <workItem from="1678181999078" duration="821000" />
+      <workItem from="1678182833721" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="add Course and DisplayCourse">
       <created>1676972240042</created>
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677857324755</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="quelque mmodif sur resultset.next">
+      <created>1677878804174</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677878804174</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +226,7 @@
     <MESSAGE value="Test MediaBuilder avec Optional" />
     <MESSAGE value="Test MediaBuilder avec try catch et exception" />
     <MESSAGE value="refactor le select pour automatiser les query en passer par le tdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor le select pour automatiser les query en passer par le tdd" />
+    <MESSAGE value="quelque mmodif sur resultset.next" />
+    <option name="LAST_COMMIT_MESSAGE" value="quelque mmodif sur resultset.next" />
   </component>
 </project>
